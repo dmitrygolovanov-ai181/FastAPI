@@ -20,7 +20,7 @@
 ## Локальный запуск
 1)Качайте файлы с гита 
 2)В вашей среде Python установите необходимые пакеты, указанные в файле requirements.txt
-pip install -r requirements.txt (в терминал)
+pip install fastapi uvicorn sqlalchemy pydantic bcrypt passlib python-jose (в терминал)
 3) Запуск FastAPI-приложения
 Открываете main
 Запустите приложение FastAPI с помощью Uvicorn:
